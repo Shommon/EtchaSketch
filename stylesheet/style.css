@@ -9,13 +9,13 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: px;
 }
 #sketch-border {
     outline: black dashed 2px;
     width: 800px;
-    height: 600px;
+    height: 800px;
     margin: 50px 30px;
 
     border: #c65046 60px solid ;
@@ -36,8 +36,28 @@ body {
     outline: rgb(107, 107, 255) dashed 5px;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+.row {
+    display: flex;
+    width: 100%;
+    height: 12.5%;
+    outline: #8b3932 dashed 1px;
+}
+
+.cell{
+    outline: black dashed 1px;
+    /* width: 50%;
+    height: 50%; */
+    flex: 1;
+   
+}
+
+.colored {
+    background-color: #232228;
+}
 
 
 
